@@ -1,0 +1,31 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+.box{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+.grid{
+    display: flex;
+    width: 618px;
+    height: 618px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn{
+    color: black;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+.mole{
+    background: url('snap.jpg');
+    background-size: cover;
+}
